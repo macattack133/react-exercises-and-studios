@@ -1,7 +1,7 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://joyfoodsunshine.com/about-laura/";
+   let authorPhoto = "https://joyfoodsunshine.com/wp-content/uploads/2022/12/JFS-profile-pic.jpg";
+   let authorName = "Laura";
 
    return (
       <div>
@@ -15,7 +15,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["French Vanilla Pudding", "Cream Cheese", "Oreo Cookies","Butter","Cool Whip", "Whole Milk"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -34,8 +34,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>The Best Oreo Dirt Cake</h1>
+            <p>Our favorite no bake dessert!</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -47,7 +47,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://joyfoodsunshine.com/wp-content/uploads/2019/06/dirt-cake-recipe-1.jpg" alt="" className="imageUpdates"/>
    );
 }
 
